@@ -1,6 +1,6 @@
 first, unzip all the .zip files in your project directory:
 
-unzip '*.zip'
+    unzip '*.zip'
 
 
 
@@ -9,7 +9,7 @@ unzip '*.zip'
 
 
 
-python3 -m venv env
+    python3 -m venv env
 
 
 
@@ -18,7 +18,7 @@ python3 -m venv env
 ## Activate the environment (Linux/macOS)
 
 
-source env/bin/activate
+    source env/bin/activate
 
 
 
@@ -27,7 +27,7 @@ source env/bin/activate
 ## If on Windows, run this instead:
 
 
-.\env\Scripts\activate
+    .\env\Scripts\activate
 
 
 
@@ -36,7 +36,7 @@ source env/bin/activate
 ## Install dependencies
 
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 
 
@@ -45,7 +45,7 @@ pip install -r requirements.txt
 ## Run the Streamlit app
 
 
-streamlit run Home.py
+    streamlit run Home.py
 
 # Use Docker
 ### if You want to use Docker:
@@ -55,12 +55,12 @@ streamlit run Home.py
 
     (Optional) Docker Compose if you prefer to use docker-compose.yml
 
-1. Build the Docker image:
-docker build -t streamlit-app .
-2. Run the Docker container:
-docker run -p 8501:8501 streamlit-app
-3. Open your browser and go to:
- http://localhost:8501
+Build the Docker image:
+    docker build -t streamlit-app .
+Run the Docker container
+    docker run -p 8501:8501 streamlit-app
+Open your browser and go to:
+    http://localhost:8501
 
 
 # 🧩 (Optional) Run with Docker Compose
