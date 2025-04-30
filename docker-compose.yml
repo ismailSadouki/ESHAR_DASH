@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  streamlit:
+    build: .
+    ports:
+      - "8501:8501"  # Map port 8501 on your local machine to port 8501 in the container
+    environment:
+      - STREAMLIT_SERVER_HEADLESS=true  # Run Streamlit in headless mode (good for Docker environments)
+    volumes:
+      - .:/app  # Mount the current directory to /app in the container
+

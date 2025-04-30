@@ -1,0 +1,28 @@
+myenv/
+building_consumption.csv
+gas_consumption.csv
+water_consumption.csv
+
+building_consumption.parquet
+gas_consumption.parquet
+water_consumption.parquet
+
+
+
+# Python bytecode
+*.pyc
+__pycache__/
+
+# Virtual environment
+myenv/
+
+# Docker and container-related files
+.docker/
+
+#data
+*.csv
+*.parquet
+# System files
+*.log
+*.bak
+
