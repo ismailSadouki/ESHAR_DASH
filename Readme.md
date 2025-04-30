@@ -55,19 +55,24 @@ first, unzip all the .zip files in your project directory:
 
     (Optional) Docker Compose if you prefer to use docker-compose.yml
 
-Build the Docker image:
+#### Build the Docker image:
+
     docker build -t streamlit-app .
-Run the Docker container
+#### Run the Docker container
+
     docker run -p 8501:8501 streamlit-app
-Open your browser and go to:
+#### Open your browser and go to:
+
     http://localhost:8501
 
 
 # 🧩 (Optional) Run with Docker Compose
-1. Run the App
-docker-compose up --build
-2. Stop the App
-docker-compose down
+#### Run the App
+
+    docker-compose up --build
+#### Stop the App
+
+    docker-compose down
 
 
 
