@@ -18,13 +18,13 @@ It integrates **energy, gas, and water consumption data** and leverages **machin
 
 - [🧩 Key Modules](#-key-modules)  
 - [📁 Data](#-data)  
+- [🌍 Sustainability Impact](#-sustainability-impact)  
+- [🔍 Anomaly Detection](#-anomaly-detection)  
 - [📊 Consumption Forecast](#-consumption-forecast)  
 - [🛢️ Gas Consumption Optimization](#️-gas-consumption-optimization)  
 - [🔌 Energy Consumption](#-energy-consumption)  
 - [🔥 Gas Consumption](#-gas-consumption)  
 - [💧 Water Consumption](#-water-consumption)  
-- [🌍 Sustainability Impact](#-sustainability-impact)  
-- [🔍 Anomaly Detection](#-anomaly-detection)  
 - [🚀 Quick Start](#-quick-start)  
 - [🐳 Docker Support](#-docker-support)  
 - [📌 Folder Structure](#-folder-structure)  
@@ -60,61 +60,6 @@ Supports `.csv`, `.parquet`, and `.zip` datasets:
 ```bash
 unzip '*.zip'
 ```
-
----
-
-## 📊 Consumption Forecast
-
-Forecast utility usage with ML:
-
-- 🔮 **SARIMAX, ARIMA, Linear Regression, Exponential Smoothing**  
-- 🚨 **Anomaly Detection** with dynamic thresholds  
-- 🎛️ Sidebar model selector and parameters
-
----
-
-## 🛢️ Gas Consumption Optimization
-
-Optimize gas consumption via:
-
-- 💡 **Energy Savings**  
-- 💰 **Cost Reduction**  
-- ⏰ **Peak Consumption**  
-- 🧠 **Smart Optimization** (linear programming)  
-- 📈 Forecasting + interactive controls
-
----
-
-## 🔌 Energy Consumption
-
-Visualize electricity usage:
-
-- 🔮 Forecast (Next 30 Days)  
-- 📊 Daily, Monthly, Hourly analysis by building  
-- 📅 Last 7-day summary
-
----
-
-## 🔥 Gas Consumption
-
-Explore gas consumption patterns:
-
-- 📈 Daily totals  
-- 🏢 Building-level breakdown  
-- 📆 Monthly trends  
-- 🕓 Hourly usage  
-- ⏰ Peak vs Off-Peak comparison
-
----
-
-## 💧 Water Consumption
-
-Monitor and analyze water usage:
-
-- 📈 Daily trends  
-- ⏰ Peak/Off-peak usage  
-- 🕒 Hourly and weekly breakdown  
-- 🚨 High usage detection
 
 ---
 
@@ -155,6 +100,77 @@ Utility-specific anomaly detectors:
 ![](https://i.imgur.com/8pZ2kZD.png)
 
 ---
+
+## 📊 Consumption Forecast
+
+Forecast utility usage with ML:
+
+- 🔮 **SARIMAX, ARIMA, Linear Regression, Exponential Smoothing**  
+- 🚨 **Anomaly Detection** with dynamic thresholds  
+- 🎛️ Sidebar model selector and parameters
+
+![](https://i.imgur.com/5GDj9xo.png)
+![](https://i.imgur.com/VzWAX0J.png)
+![](https://i.imgur.com/WTrbGAS.png)
+
+
+---
+
+## 🛢️ Gas Consumption Optimization
+
+Optimize gas consumption via:
+
+- 💡 **Energy Savings**  
+- 💰 **Cost Reduction**  
+- ⏰ **Peak Consumption**  
+- 🧠 **Smart Optimization** (linear programming)  
+- 📈 Forecasting + interactive controls
+
+---
+
+## 🔌 Energy Consumption
+
+Visualize electricity usage:
+
+- 🔮 Forecast (Next 30 Days)  
+- 📊 Daily, Monthly, Hourly analysis by building  
+- 📅 Last 7-day summary
+
+![](https://i.imgur.com/rLQ4Ahj.png)
+![](https://i.imgur.com/32ZZYxm.png)
+![](https://i.imgur.com/mBrgRHm.png)
+
+
+---
+
+## 🔥 Gas Consumption
+
+Explore gas consumption patterns:
+
+- 📈 Daily totals  
+- 🏢 Building-level breakdown  
+- 📆 Monthly trends  
+- 🕓 Hourly usage  
+- ⏰ Peak vs Off-Peak comparison
+
+![](https://i.imgur.com/qn6ZrEg.png)
+![](https://i.imgur.com/9wtUtkz.png)
+![](https://i.imgur.com/S305FMC.png)
+
+
+---
+
+## 💧 Water Consumption
+
+Monitor and analyze water usage:
+
+- 📈 Daily trends  
+- ⏰ Peak/Off-peak usage  
+- 🕒 Hourly and weekly breakdown  
+- 🚨 High usage detection
+
+---
+
 
 ## 🚀 Quick Start
 
@@ -271,7 +287,7 @@ Examples:
 
 - Built by **Ismail Sadouki**  
 - Supervised by **Professor H. Beldjillali**  
-- ENSSEA – Higher National School of Statistics
+- ENSSEA – Higher National School of Statistics and applied economics.
 
 ---
 
@@ -283,5 +299,5 @@ This repository is licensed under the
 🔒 **You may not use this code for commercial purposes.**  
 📘 [Read the full license](https://creativecommons.org/licenses/by-nc/4.0/)
 
-> ESHRA DASHBOARD © 2025 by Ismail Sadouki is licensed under CC BY-NC 4.0
+> AI-Powered Sustainability DASHBOARD © 2025 by Ismail Sadouki is licensed under CC BY-NC 4.0
 
