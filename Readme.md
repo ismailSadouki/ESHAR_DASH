@@ -127,6 +127,12 @@ Simulate and visualize environmental policies:
 - ⚙️ Policy controls (Heating, Solar, Water, Hours)  
 - 🎲 Monte Carlo Simulation (Years, Variability, CO₂ Factors)
 
+![](https://i.imgur.com/n1CSvIk.png)
+![](https://i.imgur.com/VBQ3doq.png)
+![](https://i.imgur.com/mbLs8rX.png)
+![](https://i.imgur.com/bkgcKnm.png)
+
+
 ---
 
 ## 🔍 Anomaly Detection
