@@ -27,7 +27,6 @@ It integrates **energy, gas, and water consumption data** and leverages **machin
 - [🚀 Quick Start](#-quick-start)  
 - [🐳 Docker Support](#-docker-support)  
 - [📌 Folder Structure](#-folder-structure)  
-- [📸 Screenshots](#-screenshots)  
 - [🧠 Credits](#-credits)  
 - [📄 License](#-license)
 
@@ -257,16 +256,6 @@ docker-compose down
 ├── *.csv / *.parquet / *.zip
 └── README.md
 ```
-
----
-
-## 📸 Screenshots
-
-> *(Optional: add `/assets/` images here)*  
-Examples:  
-- Forecast graph  
-- CO₂ simulation  
-- Peak consumption heatmap  
 
 ---
 
