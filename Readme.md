@@ -21,7 +21,6 @@ It integrates **energy, gas, and water consumption data** and leverages **machin
 - [🌍 Sustainability Impact](#-sustainability-impact)  
 - [🔍 Anomaly Detection](#-anomaly-detection)  
 - [📊 Consumption Forecast](#-consumption-forecast)  
-- [🛢️ Gas Consumption Optimization](#️-gas-consumption-optimization)  
 - [🔌 Energy Consumption](#-energy-consumption)  
 - [🔥 Gas Consumption](#-gas-consumption)  
 - [💧 Water Consumption](#-water-consumption)  
@@ -113,18 +112,6 @@ Forecast utility usage with ML:
 ![](https://i.imgur.com/VzWAX0J.png)
 ![](https://i.imgur.com/WTrbGAS.png)
 
-
----
-
-## 🛢️ Gas Consumption Optimization
-
-Optimize gas consumption via:
-
-- 💡 **Energy Savings**  
-- 💰 **Cost Reduction**  
-- ⏰ **Peak Consumption**  
-- 🧠 **Smart Optimization** (linear programming)  
-- 📈 Forecasting + interactive controls
 
 ---
 
