@@ -1,7 +1,6 @@
 # 🏢 AI-Powered Sustainability Dashboard
 
 > Developed under the supervision of **Professor H. Beldjillali**  
-> ENSSEA – École Nationale Supérieure de Statistique et d'Économie Appliquée
 
 A **modular, AI-enhanced Streamlit dashboard** for tracking, analyzing, and optimizing sustainability metrics across smart buildings.
 
@@ -263,7 +262,6 @@ docker-compose down
 
 - Built by **Ismail Sadouki**  
 - Supervised by **Professor H. Beldjillali**  
-- ENSSEA – Higher National School of Statistics and applied economics.
 
 ---
 
