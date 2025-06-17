@@ -1,88 +1,157 @@
-first, unzip all the .zip files in your project directory:
+# 🏢 AI-Powered Sustainability Dashboard
 
-    unzip '*.zip'
+> Developed under the supervision of **Prof. H. Beldjillali**  
+> ENSSEA – École Nationale Supérieure de Statistique et d'Économie Appliquée
 
+A **modular, AI-enhanced Streamlit dashboard** for tracking, analyzing, and optimizing sustainability metrics across smart buildings.
 
+It integrates **energy, gas, and water consumption data** and leverages **machine learning, anomaly detection, and policy simulation** to help organizations:
 
-# If you prefer not to use Docker
-## Create virtual environment
+- 💧🔌🔥 Reduce resource consumption  
+- 🔍 Detect inefficiencies and anomalies  
+- 📊 Simulate sustainability policies  
+- 📈 Forecast demand and environmental impact  
 
+---
 
+## 📚 Table of Contents
 
-    python3 -m venv env
+- [🧩 Key Modules](#-key-modules)  
+- [📁 Data](#-data)  
+- [📊 Consumption Forecast](#-consumption-forecast)  
+- [🛢️ Gas Consumption Optimization](#️-gas-consumption-optimization)  
+- [🔌 Energy Consumption](#-energy-consumption)  
+- [🔥 Gas Consumption](#-gas-consumption)  
+- [💧 Water Consumption](#-water-consumption)  
+- [🌍 Sustainability Impact](#-sustainability-impact)  
+- [🔍 Anomaly Detection](#-anomaly-detection)  
+- [🚀 Quick Start](#-quick-start)  
+- [🐳 Docker Support](#-docker-support)  
+- [📌 Folder Structure](#-folder-structure)  
+- [📸 Screenshots](#-screenshots)  
+- [🧠 Credits](#-credits)  
+- [📄 License](#-license)
 
+---
 
+## 🧩 Key Modules
 
+Each page in this dashboard focuses on a specific task:
 
+1. **📉 Consumption Forecast** – Predict future usage  
+2. **🔧 Consumption Optimization** – Improve resource efficiency  
+3. **⚠️ Anomaly Detection** – Flag abnormal consumption  
+4. **📜 Policy Simulation** – Test custom policy scenarios  
+5. **🌍 Sustainability Impact** – Measure emissions and benchmarks  
+6. **🔌 Energy**, **🔥 Gas**, and **💧 Water** – Explore utility usage in depth
 
-## Activate the environment (Linux/macOS)
+> Built for **clarity**, **interactivity**, and **actionable insights**.
 
+---
 
-    source env/bin/activate
+## 📁 Data
 
+Supports `.csv`, `.parquet`, and `.zip` datasets:
 
+- `building_consumption.*`  
+- `gas_consumption.*`  
+- `water_consumption.*`  
 
+Users can also upload their own datasets for real-time analysis.
 
+---
 
-## If on Windows, run this instead:
+## 📊 Consumption Forecast
 
+Forecast utility usage with ML:
 
-    .\env\Scripts\activate
+- 🔮 **SARIMAX, ARIMA, Linear Regression, Exponential Smoothing**  
+- 🚨 **Anomaly Detection** with dynamic thresholds  
+- 🎛️ Sidebar model selector and parameters
 
+---
 
+## 🛢️ Gas Consumption Optimization
 
+Optimize gas consumption via:
 
+- 💡 **Energy Savings** – Isolation Forest anomaly reduction  
+- 💰 **Cost Reduction** – Estimate financial impact  
+- ⏰ **Peak Consumption** – Identify and reduce spikes  
+- 🧠 **Smart Optimization** – Linear programming for load balancing  
+- 📈 Includes ARIMA forecasting & interactive controls
 
-## Install dependencies
+---
 
+## 🔌 Energy Consumption
 
-    pip install -r requirements.txt
+Visualize electricity usage:
 
+- 🔮 Forecast (Next 30 Days)  
+- 📊 Daily, Monthly, Hourly analysis by building  
+- 📅 Last 7-day summary
 
+---
 
+## 🔥 Gas Consumption
 
+Explore gas consumption patterns:
 
-## Run the Streamlit app
+- 📈 Daily totals  
+- 🏢 Building-level breakdown  
+- 📆 Monthly trends  
+- 🕓 Hourly usage  
+- ⏰ Peak vs Off-Peak comparison
 
+---
 
-    streamlit run Home.py
+## 💧 Water Consumption
 
-# Use Docker
-### if You want to use Docker:
-📦 Prerequisites
+Monitor and analyze water usage:
 
-    Docker installed and running
+- 📈 Daily trends  
+- ⏰ Peak/Off-peak usage  
+- 🕒 Hourly and weekly breakdown  
+- 🚨 High usage detection
 
-    (Optional) Docker Compose if you prefer to use docker-compose.yml
+---
 
-#### Build the Docker image:
+## 🌍 Sustainability Impact
 
-    docker build -t streamlit-app .
-#### Run the Docker container
+Simulate and visualize environmental policies:
 
-    docker run -p 8501:8501 streamlit-app
-#### Open your browser and go to:
+- 📊 Building benchmarking (Efficiency Score)  
+- 🌿 Real vs simulated CO₂ emissions  
+- ⚙️ Policy controls (Heating, Solar, Water, Hours)  
+- 🎲 Monte Carlo Simulation (Years, Variability, CO₂ Factors)
 
-    http://localhost:8501
+---
 
+## 🔍 Anomaly Detection
 
-# 🧩 (Optional) Run with Docker Compose
-#### Run the App
+Utility-specific anomaly detectors:
 
-    docker-compose up --build
-#### Stop the App
+- ⚡ **Energy** – Z-score spikes  
+- 🔥 **Gas** – Rolling average deviation  
+- 💧 **Water** – Off-peak surges  
+- 🧾 Summary tables and visual alerts
 
-    docker-compose down
+---
 
+## 🚀 Quick Start
 
+```bash
+# 1. Clone the repo
+git clone https://github.com/your-username/sustainability-dashboard.git
+cd sustainability-dashboard
 
+# 2. (Optional) Create a virtual environment
+python -m venv myenv
+source myenv/bin/activate  # On Windows: myenv\Scripts\activate
 
+# 3. Install dependencies
+pip install -r requirements.txt
 
-## License
-
-This repository is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License.
-
-**You may not use this code for commercial purposes.**
-
-ESHRA DASHBOARD © 2025 by Ismail Sadouki is licensed under CC BY-NC 4.0
+# 4. Launch the app
+streamlit run Home.py
 
