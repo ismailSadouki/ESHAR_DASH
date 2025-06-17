@@ -138,6 +138,16 @@ Utility-specific anomaly detectors:
 - 💧 **Water** – Off-peak surges  
 - 🧾 Summary tables and visual alerts
 
+
+![](https://i.imgur.com/FguhgQl.png)
+
+
+![](https://i.imgur.com/FguhgQl.png)
+![](https://i.imgur.com/5LBuIhu.png)
+![](https://i.imgur.com/TtyRVNi.png)
+![](https://i.imgur.com/QTWzmXN.png)
+![](https://i.imgur.com/8pZ2kZD.png)
+
 ---
 
 ## 🚀 Quick Start
