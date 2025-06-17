@@ -1,6 +1,6 @@
 # 🏢 AI-Powered Sustainability Dashboard
 
-> Developed under the supervision of **Prof. H. Beldjillali**  
+> Developed under the supervision of **Professor H. Beldjillali**  
 > ENSSEA – École Nationale Supérieure de Statistique et d'Économie Appliquée
 
 A **modular, AI-enhanced Streamlit dashboard** for tracking, analyzing, and optimizing sustainability metrics across smart buildings.
@@ -45,8 +45,6 @@ Each page in this dashboard focuses on a specific task:
 5. **🌍 Sustainability Impact** – Measure emissions and benchmarks  
 6. **🔌 Energy**, **🔥 Gas**, and **💧 Water** – Explore utility usage in depth
 
-> Built for **clarity**, **interactivity**, and **actionable insights**.
-
 ---
 
 ## 📁 Data
@@ -57,7 +55,11 @@ Supports `.csv`, `.parquet`, and `.zip` datasets:
 - `gas_consumption.*`  
 - `water_consumption.*`  
 
-Users can also upload their own datasets for real-time analysis.
+> **First**, unzip all the `.zip` files in your project directory:
+
+```bash
+unzip '*.zip'
+```
 
 ---
 
@@ -75,11 +77,11 @@ Forecast utility usage with ML:
 
 Optimize gas consumption via:
 
-- 💡 **Energy Savings** – Isolation Forest anomaly reduction  
-- 💰 **Cost Reduction** – Estimate financial impact  
-- ⏰ **Peak Consumption** – Identify and reduce spikes  
-- 🧠 **Smart Optimization** – Linear programming for load balancing  
-- 📈 Includes ARIMA forecasting & interactive controls
+- 💡 **Energy Savings**  
+- 💰 **Cost Reduction**  
+- ⏰ **Peak Consumption**  
+- 🧠 **Smart Optimization** (linear programming)  
+- 📈 Forecasting + interactive controls
 
 ---
 
@@ -140,18 +142,130 @@ Utility-specific anomaly detectors:
 
 ## 🚀 Quick Start
 
+If you prefer **not to use Docker**, follow these steps:
+
+### ✅ Create virtual environment
+
 ```bash
-# 1. Clone the repo
-git clone https://github.com/your-username/sustainability-dashboard.git
-cd sustainability-dashboard
+python3 -m venv env
+```
 
-# 2. (Optional) Create a virtual environment
-python -m venv myenv
-source myenv/bin/activate  # On Windows: myenv\Scripts\activate
+### ✅ Activate the environment (Linux/macOS)
 
-# 3. Install dependencies
+```bash
+source env/bin/activate
+```
+
+### ✅ If on Windows, run this instead:
+
+```bash
+.\env\Scripts\activate
+```
+
+### ✅ Install dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-# 4. Launch the app
+### ✅ Run the Streamlit app
+
+```bash
 streamlit run Home.py
+```
+
+---
+
+## 🐳 Docker Support
+
+If you prefer Docker:
+
+### 📦 Prerequisites
+
+- Docker installed and running  
+- *(Optional)* Docker Compose installed
+
+### 🏗️ Build the Docker image:
+
+```bash
+docker build -t streamlit-app .
+```
+
+### ▶️ Run the Docker container:
+
+```bash
+docker run -p 8501:8501 streamlit-app
+```
+
+Open your browser and go to:  
+👉 [http://localhost:8501](http://localhost:8501)
+
+---
+
+### 🧩 (Optional) Run with Docker Compose
+
+#### ▶️ Start the app:
+
+```bash
+docker-compose up --build
+```
+
+#### ⏹️ Stop the app:
+
+```bash
+docker-compose down
+```
+
+---
+
+## 📌 Folder Structure
+
+```bash
+├── Home.py
+├── pages/
+│   ├── Consumption_Forcast.py
+│   ├── Consumption_optimazation.py
+│   ├── Anomalies_Detection.py
+│   ├── Policy_simulation.py
+│   ├── Sustainability_Impact.py
+│   ├── energy_consumption.py
+│   ├── gas_consumption.py
+│   └── water_consumption.py
+├── utils.py
+├── requirements.txt
+├── Dockerfile
+├── docker-compose.yml
+├── *.csv / *.parquet / *.zip
+└── README.md
+```
+
+---
+
+## 📸 Screenshots
+
+> *(Optional: add `/assets/` images here)*  
+Examples:  
+- Forecast graph  
+- CO₂ simulation  
+- Peak consumption heatmap  
+
+---
+
+## 🧠 Credits
+
+- Built by **Ismail Sadouki**  
+- Supervised by **Professor H. Beldjillali**  
+- ENSSEA – Higher National School of Statistics
+
+---
+
+## 📄 License
+
+This repository is licensed under the  
+**Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)**
+
+🔒 **You may not use this code for commercial purposes.**  
+📘 [Read the full license](https://creativecommons.org/licenses/by-nc/4.0/)
+
+> ESHRA DASHBOARD © 2025 by Ismail Sadouki is licensed under CC BY-NC 4.0
 
