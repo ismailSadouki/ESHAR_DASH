@@ -6,41 +6,41 @@ A **modular, AI-enhanced Streamlit dashboard** for tracking, analyzing, and opti
 
 It integrates **energy, gas, and water consumption data** and leverages **machine learning, anomaly detection, and policy simulation** to help organizations:
 
-- 💧🔌🔥 Reduce resource consumption  
+- 💧 Reduce resource consumption  
 - 🔍 Detect inefficiencies and anomalies  
 - 📊 Simulate sustainability policies  
 - 📈 Forecast demand and environmental impact  
 
 ---
 
-## 📚 Table of Contents
+##  Table of Contents
 
-- [🧩 Key Modules](#-key-modules)  
-- [📁 Data](#-data)  
-- [🌍 Sustainability Impact](#-sustainability-impact)  
-- [🔍 Anomaly Detection](#-anomaly-detection)  
-- [📊 Consumption Forecast](#-consumption-forecast)  
-- [🔌 Energy Consumption](#-energy-consumption)  
-- [🔥 Gas Consumption](#-gas-consumption)  
-- [💧 Water Consumption](#-water-consumption)  
-- [🚀 Quick Start](#-quick-start)  
-- [🐳 Docker Support](#-docker-support)  
-- [📌 Folder Structure](#-folder-structure)  
-- [🧠 Credits](#-credits)  
-- [📄 License](#-license)
+- [ Key Modules](#-key-modules)  
+- [ Data](#-data)  
+- [ Sustainability Impact](#-sustainability-impact)  
+- [ Anomaly Detection](#-anomaly-detection)  
+- [ Consumption Forecast](#-consumption-forecast)  
+- [ Energy Consumption](#-energy-consumption)  
+- [ Gas Consumption](#-gas-consumption)  
+- [ Water Consumption](#-water-consumption)  
+- [ Quick Start](#-quick-start)  
+- [ Docker Support](#-docker-support)  
+- [ Folder Structure](#-folder-structure)  
+- [ Credits](#-credits)  
+- [ License](#-license)
 
 ---
 
-## 🧩 Key Modules
+##  Key Modules
 
 Each page in this dashboard focuses on a specific task:
 
-1. **📉 Consumption Forecast** – Predict future usage  
-2. **🔧 Consumption Optimization** – Improve resource efficiency  
-3. **⚠️ Anomaly Detection** – Flag abnormal consumption  
-4. **📜 Policy Simulation** – Test custom policy scenarios  
-5. **🌍 Sustainability Impact** – Measure emissions and benchmarks  
-6. **🔌 Energy**, **🔥 Gas**, and **💧 Water** – Explore utility usage in depth
+1. **Consumption Forecast** – Predict future usage  
+2. **Consumption Optimization** – Improve resource efficiency  
+3. **Anomaly Detection** – Flag abnormal consumption  
+4. **Policy Simulation** – Test custom policy scenarios  
+5. **Sustainability Impact** – Measure emissions and benchmarks  
+6. **Energy**, **🔥 Gas**, and **💧 Water** – Explore utility usage in depth
 
 ---
 
@@ -64,10 +64,10 @@ unzip '*.zip'
 
 Simulate and visualize environmental policies:
 
-- 📊 Building benchmarking (Efficiency Score)  
-- 🌿 Real vs simulated CO₂ emissions  
-- ⚙️ Policy controls (Heating, Solar, Water, Hours)  
-- 🎲 Monte Carlo Simulation (Years, Variability, CO₂ Factors)
+- Building benchmarking (Efficiency Score)  
+- Real vs simulated CO₂ emissions  
+- Policy controls (Heating, Solar, Water, Hours)  
+- Monte Carlo Simulation (Years, Variability, CO₂ Factors)
 
 ![](https://i.imgur.com/n1CSvIk.png)
 ![](https://i.imgur.com/VBQ3doq.png)
@@ -81,10 +81,10 @@ Simulate and visualize environmental policies:
 
 Utility-specific anomaly detectors:
 
-- ⚡ **Energy** – Z-score spikes  
-- 🔥 **Gas** – Rolling average deviation  
-- 💧 **Water** – Off-peak surges  
-- 🧾 Summary tables and visual alerts
+- **Energy** – Z-score spikes  
+- **Gas** – Rolling average deviation  
+- **Water** – Off-peak surges  
+- Summary tables and visual alerts
 
 
 ![](https://i.imgur.com/FguhgQl.png)
@@ -102,9 +102,9 @@ Utility-specific anomaly detectors:
 
 Forecast utility usage with ML:
 
-- 🔮 **SARIMAX, ARIMA, Linear Regression, Exponential Smoothing**  
-- 🚨 **Anomaly Detection** with dynamic thresholds  
-- 🎛️ Sidebar model selector and parameters
+- **SARIMAX, ARIMA, Linear Regression, Exponential Smoothing**  
+- **Anomaly Detection** with dynamic thresholds  
+- Sidebar model selector and parameters
 
 ![](https://i.imgur.com/5GDj9xo.png)
 ![](https://i.imgur.com/VzWAX0J.png)
@@ -117,9 +117,9 @@ Forecast utility usage with ML:
 
 Visualize electricity usage:
 
-- 🔮 Forecast (Next 30 Days)  
-- 📊 Daily, Monthly, Hourly analysis by building  
-- 📅 Last 7-day summary
+- Forecast (Next 30 Days)  
+- Daily, Monthly, Hourly analysis by building  
+- Last 7-day summary
 
 ![](https://i.imgur.com/rLQ4Ahj.png)
 ![](https://i.imgur.com/32ZZYxm.png)
@@ -132,11 +132,11 @@ Visualize electricity usage:
 
 Explore gas consumption patterns:
 
-- 📈 Daily totals  
-- 🏢 Building-level breakdown  
-- 📆 Monthly trends  
-- 🕓 Hourly usage  
-- ⏰ Peak vs Off-Peak comparison
+- Daily totals  
+- Building-level breakdown  
+- Monthly trends  
+- Hourly usage  
+- Peak vs Off-Peak comparison
 
 ![](https://i.imgur.com/qn6ZrEg.png)
 ![](https://i.imgur.com/9wtUtkz.png)
@@ -149,10 +149,10 @@ Explore gas consumption patterns:
 
 Monitor and analyze water usage:
 
-- 📈 Daily trends  
-- ⏰ Peak/Off-peak usage  
-- 🕒 Hourly and weekly breakdown  
-- 🚨 High usage detection
+- Daily trends  
+- Peak/Off-peak usage  
+- Hourly and weekly breakdown  
+- High usage detection
 
 ---
 
@@ -161,31 +161,31 @@ Monitor and analyze water usage:
 
 If you prefer **not to use Docker**, follow these steps:
 
-### ✅ Create virtual environment
+### Create virtual environment
 
 ```bash
 python3 -m venv env
 ```
 
-### ✅ Activate the environment (Linux/macOS)
+### Activate the environment (Linux/macOS)
 
 ```bash
 source env/bin/activate
 ```
 
-### ✅ If on Windows, run this instead:
+### If on Windows, run this instead:
 
 ```bash
 .\env\Scripts\activate
 ```
 
-### ✅ Install dependencies
+### Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### ✅ Run the Streamlit app
+### Run the Streamlit app
 
 ```bash
 streamlit run Home.py
@@ -197,18 +197,18 @@ streamlit run Home.py
 
 If you prefer Docker:
 
-### 📦 Prerequisites
+### Prerequisites
 
 - Docker installed and running  
 - *(Optional)* Docker Compose installed
 
-### 🏗️ Build the Docker image:
+### Build the Docker image:
 
 ```bash
 docker build -t streamlit-app .
 ```
 
-### ▶️ Run the Docker container:
+### Run the Docker container:
 
 ```bash
 docker run -p 8501:8501 streamlit-app
@@ -221,13 +221,13 @@ Open your browser and go to:
 
 ### 🧩 (Optional) Run with Docker Compose
 
-#### ▶️ Start the app:
+#### Start the app:
 
 ```bash
 docker-compose up --build
 ```
 
-#### ⏹️ Stop the app:
+#### Stop the app:
 
 ```bash
 docker-compose down
